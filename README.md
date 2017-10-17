@@ -13,3 +13,7 @@ private ArrayList<Row> parse(String string) {
 ```
 {"StationDayTrnsitNmpr":{"list_total_count":44,"RESULT":{"CODE":"INFO-000","MESSAGE":"정상 처리되었습니다"},"row":[{"SN":"1","STATN_NM":"신도림","WKDAY":333873.0,"SATDAY":298987.0,"SUNDAY":216886.0},{"SN":"44","STATN_NM":"이촌","WKDAY":12802.0,"SATDAY":46939.0,"SUNDAY":10681.0}]}}
 ```
+
+##### JSON 데이터를 클래스로 만드는 방법
+##### 원래는 받아온 데이터를 String 함수를 이용하여 잘라야 하지만 Gson 클래스를 이용하면 손쉽게 데이터를 얻을 수 있다.
+##### 그리고 Pojo 사이트를 이용하면 JSON 데이터를 클래스로 만들 수 있다.
